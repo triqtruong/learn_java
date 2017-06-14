@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "537cb982_5e66e1f8",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-14T22:53:50Z",
+      "side": 1,
+      "message": "Delete all these, put some topics for learning. For example:\n\n\n# Topics\n\n* Types\n* Control\n* Class",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 3
+      },
+      "revId": "55bfd7f4c19b521ca38a5e87e52f6a2a7d8ff3c7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
