@@ -1,2 +1,3 @@
 # learn_java
-Learning code stuff
+Learning Java
+
