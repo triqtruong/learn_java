@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d3ff72fb_0ceac095",
+        "filename": "README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-14T19:56:59Z",
+      "side": 1,
+      "message": "change \"Learning Java\" back to \"Learning code stuff\"",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "c3e102009f9ffa4e6332320ba34f8e094d644b59",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
