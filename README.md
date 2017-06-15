@@ -4,4 +4,5 @@ Learning code stuff
 Topics: 
 	Type
 	Control
-	Class
+	New change using vim
+
