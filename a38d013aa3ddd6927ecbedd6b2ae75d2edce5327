@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "9eee420e_b9764b24",
+        "filename": ".idea/.name",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T04:54:50Z",
+      "side": 1,
+      "message": "When creating a new project with New \u003e Project ..., at some point, it will ask to put\nProject Name: ...\nProject Location: ...\n\nThen Project Location should be c:\\cygwin\\home\\git\\learn_java\nand Project Name should be: learn_java",
+      "parentUuid": "ffedccac_ffca4fb7",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8eb429f0_a2908d94",
         "filename": ".idea/libraries/KotlinJavaRuntime.xml",
         "patchSetId": 2
@@ -84,6 +108,30 @@
       "side": 1,
       "message": "I don\u0027t know how to put this as gitignore. this file was created using the default option. Can I just delete this file then?",
       "parentUuid": "8eb429f0_a2908d94",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 10
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "215c0440_02ec9388",
+        "filename": ".idea/libraries/KotlinJavaRuntime.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T04:54:50Z",
+      "side": 1,
+      "message": "When creating new project, you don\u0027t select any additional library or framework:\n* Groovy\n* Kotlin (Java)\n* Kotlin (Javascript)\n\nYou can try remove this file and see if IntelliJ can still happy to open the project",
+      "parentUuid": "bc7ea563_2f3012ce",
       "range": {
         "startLine": 1,
         "startChar": 1,
@@ -143,6 +191,53 @@
     },
     {
       "key": {
+        "uuid": "399ea605_3b1f6e50",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T04:54:50Z",
+      "side": 1,
+      "message": "Does not seem like Done",
+      "parentUuid": "721a33b0_102b2a53",
+      "range": {
+        "startLine": 7,
+        "startChar": 1,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e769e13c_c6a99213",
+        "filename": "math_simple.iml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T04:54:50Z",
+      "side": 1,
+      "message": "remove this line",
+      "range": {
+        "startLine": 10,
+        "startChar": 31,
+        "endLine": 10,
+        "endChar": 35
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "691288fd_0f9bacad",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -178,6 +273,30 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "691288fd_0f9bacad",
+      "range": {
+        "startLine": 2,
+        "startChar": 3,
+        "endLine": 2,
+        "endChar": 33
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15f5528a_dea069cc",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T04:54:50Z",
+      "side": 1,
+      "message": "You have not pushed a new Patch Set",
+      "parentUuid": "f5694a18_63140765",
       "range": {
         "startLine": 2,
         "startChar": 3,
