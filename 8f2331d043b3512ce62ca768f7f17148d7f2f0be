@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "f490a440_13486f3c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T13:37:39Z",
+      "side": 1,
+      "message": "This is your message when committing a message. Your committing message must have the Change-Id at the end. Otherwise, it will create a new change. In this particular change, the last line of this commit should be:\n\nChange-Id: Ia98abbcea17bc02ddd2b70d8d4710647df3a17f7\n\nWhere do I get this change id? Just go back to the change, you will see it list this id in the change.\n\nThis Change-Id will automatically be there when you \"create change\" from this gerrithub.io. Pay attention to that next time you create new change.\n\nAnd when you do:\ngit commit --amend\n\nIt will amend to that same commit instead of creating new commit, hence it still remain that line:\n\nChange-Id: Ia98abbcea17bc02ddd2b70d8d4710647df3a17f7\n\nYou will discard this change anyway. Just pay attention to these details next time for learning purpose.\n\nAlso, when these changes are discarded, these comments are gone, so take notes if needed so that you can remember.",
+      "revId": "8f2331d043b3512ce62ca768f7f17148d7f2f0be",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0b16ea85_40aa7ce9",
         "filename": "src/Timus1000.java",
         "patchSetId": 1
