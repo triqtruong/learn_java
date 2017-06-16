@@ -1,5 +1,4 @@
 /* */
-
 public class Timus1000 {
     public int sum(int var_a, int var_b) {
         int output = var_a + var_b;
@@ -11,6 +10,4 @@ public class Timus1000 {
         System.out.println(math.sum(2,3));
     }
 }
-
-
 
