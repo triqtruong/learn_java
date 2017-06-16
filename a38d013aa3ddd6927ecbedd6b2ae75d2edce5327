@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ffedccac_ffca4fb7",
+        "filename": ".idea/.name",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "I thought this was one of the modules in the learn_java project",
+      "parentUuid": "60f231c6_f35a1f1b",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8eb429f0_a2908d94",
         "filename": ".idea/libraries/KotlinJavaRuntime.xml",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-16T02:13:06Z",
       "side": 1,
       "message": "This whole file may not be needed, we\u0027re not using Kotlin. Kotlin is a different language from Java",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 10
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc7ea563_2f3012ce",
+        "filename": ".idea/libraries/KotlinJavaRuntime.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "I don\u0027t know how to put this as gitignore. this file was created using the default option. Can I just delete this file then?",
+      "parentUuid": "8eb429f0_a2908d94",
       "range": {
         "startLine": 1,
         "startChar": 1,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "721a33b0_102b2a53",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03bc9452_9c3f5c98",
+      "range": {
+        "startLine": 7,
+        "startChar": 1,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "691288fd_0f9bacad",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -82,6 +154,30 @@
       "writtenOn": "2017-06-16T02:13:06Z",
       "side": 1,
       "message": "Remove this comment, put some meaningful documentation here.",
+      "range": {
+        "startLine": 2,
+        "startChar": 3,
+        "endLine": 2,
+        "endChar": 33
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5694a18_63140765",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "691288fd_0f9bacad",
       "range": {
         "startLine": 2,
         "startChar": 3,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "58787557_c4b1d135",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0231e87e_4797bd3d",
+      "range": {
+        "startLine": 5,
+        "startChar": 12,
+        "endLine": 5,
+        "endChar": 17
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a196edc_c87d4595",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -163,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "cc590349_de5f0f4c",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a196edc_c87d4595",
+      "range": {
+        "startLine": 7,
+        "startChar": 19,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f40f8484_c934e507",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -174,6 +318,24 @@
       "writtenOn": "2017-06-16T02:13:06Z",
       "side": 1,
       "message": "You need a main method for this program to run:\n\npublic static void main(String[] args) {\n  ...\n}",
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8aced8a0_65e4339f",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-16T02:39:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f40f8484_c934e507",
       "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
