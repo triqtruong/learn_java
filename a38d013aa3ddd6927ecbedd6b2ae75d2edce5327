@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "60f231c6_f35a1f1b",
+        "filename": ".idea/.name",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "why do you use this name, why not the learn_java which is your repository name",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8eb429f0_a2908d94",
+        "filename": ".idea/libraries/KotlinJavaRuntime.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "This whole file may not be needed, we\u0027re not using Kotlin. Kotlin is a different language from Java",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 1,
+        "endChar": 10
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03bc9452_9c3f5c98",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "This change should be reverted if possible because it\u0027s not what this change list is about. This change list is about creating new project to solve a Timus problem. the change in this file is not inline with that purpose.",
+      "range": {
+        "startLine": 7,
+        "startChar": 1,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "691288fd_0f9bacad",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "Remove this comment, put some meaningful documentation here.",
+      "range": {
+        "startLine": 2,
+        "startChar": 3,
+        "endLine": 2,
+        "endChar": 33
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "384374ed_1ffd1571",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "Indentation should be 4 spaces",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 8
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0231e87e_4797bd3d",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "these fields are not needed if you pass them to the sum() method. Also if if you want field like this, should be named: varA, not var_a. Pay attention to the naming convention",
+      "range": {
+        "startLine": 5,
+        "startChar": 12,
+        "endLine": 5,
+        "endChar": 17
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a196edc_c87d4595",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "You should have good naming. For example:  sum(int firstNumber, int secondNumber) {\n}",
+      "range": {
+        "startLine": 7,
+        "startChar": 19,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f40f8484_c934e507",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T02:13:06Z",
+      "side": 1,
+      "message": "You need a main method for this program to run:\n\npublic static void main(String[] args) {\n  ...\n}",
+      "revId": "a38d013aa3ddd6927ecbedd6b2ae75d2edce5327",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
