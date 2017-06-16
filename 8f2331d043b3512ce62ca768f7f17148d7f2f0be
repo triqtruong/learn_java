@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b16ea85_40aa7ce9",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T13:31:07Z",
+      "side": 1,
+      "message": "change to: (int first, int second)",
+      "range": {
+        "startLine": 3,
+        "startChar": 23,
+        "endLine": 3,
+        "endChar": 28
+      },
+      "revId": "8f2331d043b3512ce62ca768f7f17148d7f2f0be",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64d1387c_77400847",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T13:31:07Z",
+      "side": 1,
+      "message": "return directly the output:\n\nreturn first + second;",
+      "range": {
+        "startLine": 4,
+        "startChar": 12,
+        "endLine": 4,
+        "endChar": 18
+      },
+      "revId": "8f2331d043b3512ce62ca768f7f17148d7f2f0be",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ecef069f_5cc7f43f",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-16T13:31:07Z",
+      "side": 1,
+      "message": "Try submitting this code to timus and let me know the result. Step to do:\n\n- regster Timus\n- go to http://acm.timus.ru/problem.aspx?space\u003d1\u0026num\u003d1000 and click \"Submit Solution\", put your JUDGE_ID and change the language to Java.\n- once submit it will run and tell you the result. Give me the link for that result",
+      "revId": "8f2331d043b3512ce62ca768f7f17148d7f2f0be",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
