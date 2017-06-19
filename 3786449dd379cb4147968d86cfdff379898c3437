@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9f50ed8_84879595",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "this style /*. .... */ is a comment, not java doc. Javadoc style is:\n\n/**\n *\n *\n */\n\nSee http://www.oracle.com/technetwork/articles/java/index-137868.html",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 2
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "381c7cb8_2afa9a7c",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "The javadoc need to align with the method:\n\n\n    /**\n     * Some documentation\n     */\n    public int sum(...) {\n    }",
+      "range": {
+        "startLine": 12,
+        "startChar": 4,
+        "endLine": 12,
+        "endChar": 10
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e3955dea_c43f822c",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "remove this. This comment does not add any value)",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 9
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "82884ac3_f8edca14",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "add a space here:\n\n(String[] args) {",
+      "range": {
+        "startLine": 17,
+        "startChar": 40,
+        "endLine": 17,
+        "endChar": 42
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80a185d4_ec5daea9",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "Scanner is a closable object, so you should use the try resource pattern in Java:\n\nfor (Scanner scanner \u003d new Scanner(System.in)) {\n    int first \u003d scanner.nextInt();\n    ...\n}\n\nWith this pattern, the scanner.close() will be automatically invoked.",
+      "range": {
+        "startLine": 19,
+        "startChar": 8,
+        "endLine": 19,
+        "endChar": 15
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0c6675f_3dc1068c",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:26:25Z",
+      "side": 1,
+      "message": "delete all of these redundant empty lines, only leave one empty line at the end.",
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
