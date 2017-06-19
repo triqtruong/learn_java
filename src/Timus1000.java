@@ -1,16 +1,21 @@
-/* */
+/**/
+import java.io.*;       // Java i/o library
+import java.util.Scanner;
+
 
 public class Timus1000 {
-    public int sum(int var_a, int var_b) {
-        int output = var_a + var_b;
-        return output;
+    public int sum(int first, int second) {
+        return first+second;
     }
 
     public static void main(String[] arg){
         Timus1000 math = new Timus1000();
-        System.out.println(math.sum(2,3));
+        Scanner input = new Scanner(System.in);
+
+        int first = input.nextInt();
+        int second = input.nextInt();
+        System.out.println(math.sum(first,second));
     }
 }
-
 
 
