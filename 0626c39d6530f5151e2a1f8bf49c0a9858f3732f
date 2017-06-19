@@ -288,6 +288,30 @@
     },
     {
       "key": {
+        "uuid": "aa4d40d0_1797ef51",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T04:28:04Z",
+      "side": 1,
+      "message": "scanner is not input. Input is the System.in, you create a scanner around that System.in to parse the input.",
+      "parentUuid": "aeb5fb13_16090e5f",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a956b00_014c1c25",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
