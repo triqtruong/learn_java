@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a19d3d6a_74e7c652",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T22:42:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9f50ed8_84879595",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 2
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "381c7cb8_2afa9a7c",
         "filename": "src/Timus1000.java",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-19T04:26:25Z",
       "side": 1,
       "message": "The javadoc need to align with the method:\n\n\n    /**\n     * Some documentation\n     */\n    public int sum(...) {\n    }",
+      "range": {
+        "startLine": 12,
+        "startChar": 4,
+        "endLine": 12,
+        "endChar": 10
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c9d6427_45942652",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T22:42:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "381c7cb8_2afa9a7c",
       "range": {
         "startLine": 12,
         "startChar": 4,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "6156e6a0_81d1f0ed",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T22:42:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82884ac3_f8edca14",
+      "range": {
+        "startLine": 17,
+        "startChar": 40,
+        "endLine": 17,
+        "endChar": 42
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "80a185d4_ec5daea9",
         "filename": "src/Timus1000.java",
         "patchSetId": 3
@@ -117,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "aab3f44f_4c84d871",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T22:42:12Z",
+      "side": 1,
+      "message": "I tried using the same syntax you suggested. I returned a error saying  \";\" expected. Below is my code.\n\n    public static void main(String[] arg) {\n        Timus1000 math \u003d new Timus1000();\n        for (Scanner scanner \u003d new Scanner(System.in)) {\n            int first \u003d scanner.nextInt();\n            int second \u003d scanner.nextInt();\n            System.out.println(math.sum(first, second));\n        }\n    }\n\nAlso, I\u0027m not quite sure how this loop works.\nIsn\u0027t this an infinite loop since the statement always true?",
+      "parentUuid": "80a185d4_ec5daea9",
+      "range": {
+        "startLine": 19,
+        "startChar": 8,
+        "endLine": 19,
+        "endChar": 15
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e0c6675f_3dc1068c",
         "filename": "src/Timus1000.java",
         "patchSetId": 3
@@ -128,6 +224,24 @@
       "writtenOn": "2017-06-19T04:26:25Z",
       "side": 1,
       "message": "delete all of these redundant empty lines, only leave one empty line at the end.",
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "95698722_da946b90",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T22:42:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e0c6675f_3dc1068c",
       "revId": "3786449dd379cb4147968d86cfdff379898c3437",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
