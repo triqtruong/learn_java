@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "86a9503a_b7b1ac22",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b8b8baf9_5aedda04",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 4
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5eaccf61_d3f96e25",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "482a73dc_c4281974",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5eaccf61_d3f96e25",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "765ddfa5_b8aeedab",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -82,6 +130,24 @@
       "writtenOn": "2017-06-19T00:40:59Z",
       "side": 1,
       "message": "Put some javadoc for this class. The pattern is:\n\n/**\n * Your doc here.\n */\n\nWhen documenting, think about 6 months from now, what would you like to document so that you can still remember what this class purpose is.",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e36c79f9_cf99c17b",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "765ddfa5_b8aeedab",
       "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -105,6 +171,24 @@
     },
     {
       "key": {
+        "uuid": "835bc3b1_25a100ef",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e0f7ba4_90d2e764",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b2a941cb_0c6f91d3",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -116,6 +200,24 @@
       "writtenOn": "2017-06-19T00:40:59Z",
       "side": 1,
       "message": "put javadoc for this method too.",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1bcaf294_7321a4ae",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2a941cb_0c6f91d3",
       "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -162,6 +264,30 @@
     },
     {
       "key": {
+        "uuid": "aeb5fb13_16090e5f",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "I thought the name of this scanner is \u0027input\u0027",
+      "parentUuid": "2067b4a9_eede27ef",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a956b00_014c1c25",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
@@ -173,6 +299,24 @@
       "writtenOn": "2017-06-19T01:33:48Z",
       "side": 1,
       "message": "give one space after ,\nsum(first, second)",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "162a5b5e_6a10081e",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-19T03:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a956b00_014c1c25",
       "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
