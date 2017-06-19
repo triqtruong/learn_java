@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8b8baf9_5aedda04",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:38:28Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 4
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5eaccf61_d3f96e25",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:38:28Z",
+      "side": 1,
+      "message": "never import .*\nyou need to import the specific class, or constant ...",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "555b7fc0_ef542d7f",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:38:28Z",
+      "side": 1,
+      "message": "remove this comment, it does not give me any good info.",
+      "range": {
+        "startLine": 2,
+        "startChar": 24,
+        "endLine": 2,
+        "endChar": 43
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2067b4a9_eede27ef",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:38:28Z",
+      "side": 1,
+      "message": "name this scanner",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
