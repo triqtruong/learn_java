@@ -88,6 +88,23 @@
     },
     {
       "key": {
+        "uuid": "0e0f7ba4_90d2e764",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:45:50Z",
+      "side": 1,
+      "message": "you can make this class final because we don\u0027t expect to have a class to extend this class:\n\npublic final class ...",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b2a941cb_0c6f91d3",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
