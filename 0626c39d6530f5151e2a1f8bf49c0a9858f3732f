@@ -105,6 +105,23 @@
     },
     {
       "key": {
+        "uuid": "7316d0d9_8da5c517",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-19T00:41:53Z",
+      "side": 1,
+      "message": "have some space around the +\n\nfirst + second",
+      "revId": "0626c39d6530f5151e2a1f8bf49c0a9858f3732f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2067b4a9_eede27ef",
         "filename": "src/Timus1000.java",
         "patchSetId": 2
