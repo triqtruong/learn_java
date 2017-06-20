@@ -213,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "38a2c658_d6ac31b7",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-20T01:19:28Z",
+      "side": 1,
+      "message": "Sorry I typed too fast. It\u0027s not for, it\u0027s try:\n\ntry (Scanner scanner ...) {\n}\n\nSee https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html",
+      "parentUuid": "aab3f44f_4c84d871",
+      "range": {
+        "startLine": 19,
+        "startChar": 8,
+        "endLine": 19,
+        "endChar": 15
+      },
+      "revId": "3786449dd379cb4147968d86cfdff379898c3437",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e0c6675f_3dc1068c",
         "filename": "src/Timus1000.java",
         "patchSetId": 3
