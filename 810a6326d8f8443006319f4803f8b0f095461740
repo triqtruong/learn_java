@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5abfc779_70683b9b",
+        "filename": "src/Timus1000.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-20T01:23:46Z",
+      "side": 1,
+      "message": "In the IntelliJ, when you type this above this method /**\u003cEnter\u003e, IntelliJ will automatically generate some javadoc and you should use it:\n\n/**\n * \u003c Fill in your doc here, e.g. Sums 2 numbers. \u003e\n * @param int first \u003c Fill in your doc here\u003e\n * @param int second \u003cFill in your doc here\u003e\n * @return  \u003c Fill in your doc here\u003e\n */",
+      "revId": "810a6326d8f8443006319f4803f8b0f095461740",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
