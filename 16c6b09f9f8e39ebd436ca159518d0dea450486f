@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "73bdfff0_40e650da",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-23T21:44:47Z",
+      "side": 1,
+      "message": "I\u0027m not quite sure, actually. I think this might be similar to bubble sort.\n\nIt\u0027s pretty much just switch the location of the 2 adjacent members of the array until it got right",
+      "parentUuid": "17faf8dc_d443bc24",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 36
+      },
+      "revId": "16c6b09f9f8e39ebd436ca159518d0dea450486f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "076d37fe_35e453d3",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 2
