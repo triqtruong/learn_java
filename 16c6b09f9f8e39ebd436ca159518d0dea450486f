@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "6491c480_b47b7334",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-23T23:01:16Z",
+      "side": 1,
+      "message": "I couldn\u0027t figure out what this code is doing. If you want to implement the sort yourself, you need to specify what algorithm you\u0027re using. There are many sort algorithms, you can see \"Introduction to Algorithms\" by Thomas H. Cormen et al. For this CL though, I\u0027d like you to learn something else, so just use Arrays.sort for this.\n\nRegarding the sort, if you want to learn about sort, create a separate change for sort. Some algorithms to know about sort: quick sort, merge sort, heap sort, insertion sort. Insert sort runs in O(n^2) time, but it\u0027s fast for small array while the other sort algorithms are way faster for large array (running time is O(nlogn).",
+      "parentUuid": "9016c1d6_ee6a9b99",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 36
+      },
+      "revId": "16c6b09f9f8e39ebd436ca159518d0dea450486f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "076d37fe_35e453d3",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 2
