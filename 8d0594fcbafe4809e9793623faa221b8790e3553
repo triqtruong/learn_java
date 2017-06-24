@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "31ccc546_0707e0e9",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-24T22:21:28Z",
+      "side": 1,
+      "message": "For this Change (or Exercise), we don\u0027t need the main() method. Instead, we will use test to execute your methods.\n\n\nSo let me take one example of the exercise 2: Write a Java program to sum values of an array.\n\nSo I would create a method for it:\ndouble sum(double[] values) {\n  double sum \u003d 0;\n  for (int value : values) {\n    double +\u003d value;\n  }\n  return double;\n}\n\nNow, you need a way to try this test, or test this method. In the old way, you would create a main() method like this to invoke the sum() method to see how it work. But the right way is to write test for it (without needing the main() method here).\n\nSo in the ArrayPracticeTest, you would write a couple of tests like this:\n\nvoid testSumEmptyArray_returnZero() {\n  assertEqual(0d, sum(new double[0]), 0.00001);\n}\n\nvoid testSumOneValueArray() {\n  double[] values \u003d {2.0};\n  double sum \u003d sum(values);\n  assertEquals(2.0, sum, 0.000001);\n}\n\nvoid testSumMultipleValuesArray() {\n  ....\n}",
+      "range": {
+        "startLine": 9,
+        "startChar": 23,
+        "endLine": 9,
+        "endChar": 27
+      },
+      "revId": "8d0594fcbafe4809e9793623faa221b8790e3553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
