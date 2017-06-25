@@ -163,6 +163,52 @@
     },
     {
       "key": {
+        "uuid": "56843480_63fc2cc3",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:04:57Z",
+      "side": 1,
+      "message": "remove this test. This is no longer relevant. It\u0027s just there to tech you about writing test.",
+      "range": {
+        "startLine": 14,
+        "startChar": 16,
+        "endLine": 14,
+        "endChar": 20
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bee4293c_3b09bec8",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:04:57Z",
+      "side": 1,
+      "message": "name should be camelCase. The the declaration should be \"type variable\":\ndouble testArr1 \u003d ...\n\nThe testArr1 is very ugly. Why suffix 1? Names should be simple and describe that stuff.\n\nFor example, in this case:\n\ndouble[] values \u003d {1, 2, 3, 4};\ndouble average \u003d ...",
+      "range": {
+        "startLine": 19,
+        "startChar": 15,
+        "endLine": 19,
+        "endChar": 24
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "946d59ed_f2d08c4b",
         "filename": "test/ArrayPracticeTest.java",
         "patchSetId": 4
@@ -179,6 +225,52 @@
         "startChar": 25,
         "endLine": 20,
         "endChar": 34
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb2cc24a_bd69e109",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:04:57Z",
+      "side": 1,
+      "message": "test2 and test3 are the same. Select one.",
+      "range": {
+        "startLine": 30,
+        "startChar": 16,
+        "endLine": 30,
+        "endChar": 21
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ec4474b_c93a21db",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:04:57Z",
+      "side": 1,
+      "message": "this test is the same as test1, so choose one.",
+      "range": {
+        "startLine": 36,
+        "startChar": 16,
+        "endLine": 36,
+        "endChar": 21
       },
       "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
