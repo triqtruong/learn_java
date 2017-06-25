@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b0ef9543_dccbebbc",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "You don\u0027t need to repeat the method name here. This sentence should just be:\nComputes the average of the {@code values}. The {@code values} must not be empty.",
+      "range": {
+        "startLine": 25,
+        "startChar": 7,
+        "endLine": 25,
+        "endChar": 16
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "573d5546_eda3bd6d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "rename this variable: values or numbers (array is a poor name because it\u0027s just the type, i.e. the [] part of the double[]).",
+      "range": {
+        "startLine": 29,
+        "startChar": 43,
+        "endLine": 29,
+        "endChar": 48
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9e3a520a_9d47781d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "Every time you want to name a variable \"result\" like this, think twice. Try to come up with a name that makes sense. The name of what the variable truly is. In this case, this variable is average, so you should name it average.",
+      "range": {
+        "startLine": 30,
+        "startChar": 15,
+        "endLine": 30,
+        "endChar": 21
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5886897a_20c41fc9",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "this is not good. Average of an empty array does not make sense, so you don\u0027t want to support that case.\nFor a method, you should try to define a contract. What\u0027s the contract for this method? The contract is: the values must not be empty. So how do you enforce that contract?\nFirst, at the beginning of the method, verify the input that it\u0027s valid:\nif (values \u003d\u003d null || values.length \u003d\u003d 0) {\n  throw new IllegalArgumentException(\"values must not be empty\");\n}\nSecond, document that in the java doc.",
+      "range": {
+        "startLine": 37,
+        "startChar": 19,
+        "endLine": 37,
+        "endChar": 20
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3d4bd7ca_b2f29626",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "name the method that makes sense:\narrayAvg_multipleValues()",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 20
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "925ad74e_663011bd",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "double[] values",
+      "range": {
+        "startLine": 7,
+        "startChar": 15,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c0b2d65d_57454f98",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T14:09:14Z",
+      "side": 1,
+      "message": "arrayAvg_oneValue",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "fd5c124ae67ec47820cb17849063617360628820",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
