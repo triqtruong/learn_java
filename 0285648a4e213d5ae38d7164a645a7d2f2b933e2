@@ -140,6 +140,30 @@
     },
     {
       "key": {
+        "uuid": "d40123c6_288d1e18",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T06:49:02Z",
+      "side": 1,
+      "message": "I didn\u0027t know array length \u003d 0 is possible.",
+      "parentUuid": "5780c756_6c7ebb9c",
+      "range": {
+        "startLine": 34,
+        "startChar": 37,
+        "endLine": 34,
+        "endChar": 43
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9eba676e_1221fed2",
         "filename": "test/ArrayPracticeTest.java",
         "patchSetId": 4
