@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "bfa512c2_ba853368",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:00:46Z",
+      "side": 1,
+      "message": "method name in Java should be in camelCase. So in this case, it should be:\nlineDraw . Change the name for other methods as well.",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 25
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "09e62ddc_b8ecf06b",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 4
@@ -41,6 +64,75 @@
         "startChar": 4,
         "endLine": 29,
         "endChar": 10
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d1d427a_7db44451",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:00:46Z",
+      "side": 1,
+      "message": "You should use for each loop because you are not really using the index I:\nfor (double value : array) {\n  result +\u003d value;\n}",
+      "range": {
+        "startLine": 31,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 16
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a70f3e95_c6df11cb",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:00:46Z",
+      "side": 1,
+      "message": "just return result / array.length, don\u0027t need to reassign this result \u003d ...",
+      "range": {
+        "startLine": 34,
+        "startChar": 15,
+        "endLine": 34,
+        "endChar": 21
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5780c756_6c7ebb9c",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T06:00:46Z",
+      "side": 1,
+      "message": "what if array.length \u003d\u003d 0?",
+      "range": {
+        "startLine": 34,
+        "startChar": 37,
+        "endLine": 34,
+        "endChar": 43
       },
       "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
