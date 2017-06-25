@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d10cad41_fd8dcc99",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T21:51:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d186fa23_13adff07",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 24
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd605549_dbc68af4",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-25T21:24:49Z",
       "side": 1,
       "message": "\"valid\" here is very vague, what does it mean by valid?\npopulated is redundant. An array of primitive is always populated.",
+      "range": {
+        "startLine": 25,
+        "startChar": 74,
+        "endLine": 25,
+        "endChar": 96
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d3fe844b_58343e16",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T21:51:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd605549_dbc68af4",
       "range": {
         "startLine": 25,
         "startChar": 74,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "0d31eae3_835fcb25",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T21:51:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "121c784a_d7c6e836",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 29,
+        "endChar": 33
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c75e7218_c567b979",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 6
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "ee0c988e_e1a5fcce",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T21:51:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c75e7218_c567b979",
+      "range": {
+        "startLine": 31,
+        "startChar": 12,
+        "endLine": 31,
+        "endChar": 52
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "09119c98_02313909",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 6
@@ -105,6 +201,30 @@
       "writtenOn": "2017-06-25T21:24:49Z",
       "side": 1,
       "message": "This need to move up to beginning of the method because this is a contract. Whoever read this method does not have to read the whole method just to know that the input cannot be empty:\n\npublic static double avgArray(double[] values) {\n  if (values \u003d\u003d null || values.length \u003d\u003d 0) {\n    throw new IllegalArgumentException(...);\n  }\n  double average \u003d 0;\n  ...\n}",
+      "range": {
+        "startLine": 37,
+        "startChar": 22,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5feb2b47_4217ba6f",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-25T21:51:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09119c98_02313909",
       "range": {
         "startLine": 37,
         "startChar": 22,
