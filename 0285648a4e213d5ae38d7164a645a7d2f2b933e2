@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "09e62ddc_b8ecf06b",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T05:52:19Z",
+      "side": 1,
+      "message": "Technically double array[] is still correct in Java. But you should always declare like this: double[] array. Why? first this double array[] is the C style. Second, by convention, in java, we usually follow this pattern when declare a variable:\n\nType variable.\n\nSo in this case, type is: double[] and variable is array. So the declaration should be: double[] array.",
+      "range": {
+        "startLine": 29,
+        "startChar": 21,
+        "endLine": 29,
+        "endChar": 27
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8d4abc2_4194babe",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T05:52:19Z",
+      "side": 1,
+      "message": "make this a static method:\n\npublic static double array_avg ...",
+      "range": {
+        "startLine": 29,
+        "startChar": 4,
+        "endLine": 29,
+        "endChar": 10
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9eba676e_1221fed2",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T05:52:19Z",
+      "side": 1,
+      "message": "remove this method",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 20
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "946d59ed_f2d08c4b",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T05:52:19Z",
+      "side": 1,
+      "message": "This should become JavaPractice.array_avg(...). So basically, the test objective is to test the method in the real class, which is JavaPractice.",
+      "range": {
+        "startLine": 20,
+        "startChar": 25,
+        "endLine": 20,
+        "endChar": 34
+      },
+      "revId": "0285648a4e213d5ae38d7164a645a7d2f2b933e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
