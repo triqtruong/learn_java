@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d186fa23_13adff07",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T21:24:49Z",
+      "side": 1,
+      "message": "remove this method for now. Let\u0027s make this change to contain only 1 method avgArray. I want to finish this change so that I can tech you the next concept.",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 24
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd605549_dbc68af4",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T21:24:49Z",
+      "side": 1,
+      "message": "\"valid\" here is very vague, what does it mean by valid?\npopulated is redundant. An array of primitive is always populated.",
+      "range": {
+        "startLine": 25,
+        "startChar": 74,
+        "endLine": 25,
+        "endChar": 96
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "121c784a_d7c6e836",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T21:24:49Z",
+      "side": 1,
+      "message": "method name should start with a verb, change this to avgArray. Also change the method name in the test: change the arrayAvg to avgArrayy",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 29,
+        "endChar": 33
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c75e7218_c567b979",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T21:24:49Z",
+      "side": 1,
+      "message": "this condition is in wrong order. If you want to do condition like this, it must be:\nvalues !\u003d null \u0026\u0026 values.length !\u003d 0\nWhy? just consider a couple of test case then you \u0027ll see that this will crash your app:\nif values is null then this condition values.length !\u003d 0 already crashes before it can have a chance to check values !\u003d null.\nAlso, the or operator || is also wrong, imaging that values is empty (i.e. values \u003d new double[0]), then your condition is still correct:\nvalues.length !\u003d 0: false\nvalues !\u003d null: true\nfalse or true is true.\nWhat\u0027s why you must use and operator instead of or.",
+      "range": {
+        "startLine": 31,
+        "startChar": 12,
+        "endLine": 31,
+        "endChar": 52
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "09119c98_02313909",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-25T21:24:49Z",
+      "side": 1,
+      "message": "This need to move up to beginning of the method because this is a contract. Whoever read this method does not have to read the whole method just to know that the input cannot be empty:\n\npublic static double avgArray(double[] values) {\n  if (values \u003d\u003d null || values.length \u003d\u003d 0) {\n    throw new IllegalArgumentException(...);\n  }\n  double average \u003d 0;\n  ...\n}",
+      "range": {
+        "startLine": 37,
+        "startChar": 22,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "0a1c1631a4f7bbcc033ad66599faf8a64cb910ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
