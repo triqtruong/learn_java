@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd8e5faf_666611b2",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T03:46:42Z",
+      "side": 1,
+      "message": "remove this. Without this, it already returns 0 if the array is empty. Right?",
+      "range": {
+        "startLine": 14,
+        "startChar": 8,
+        "endLine": 16,
+        "endChar": 9
+      },
+      "revId": "7e4418b25182d0ee67014c0c8a9e57d7bbc99e28",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ebc1e89_af01b0cc",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T03:46:42Z",
+      "side": 1,
+      "message": "You need to bring the old test back. The old test methods is to test the avgArray method while these new sumArray_ test methods is to test the new method sumArrayy",
+      "revId": "7e4418b25182d0ee67014c0c8a9e57d7bbc99e28",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
