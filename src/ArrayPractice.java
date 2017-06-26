@@ -17,7 +17,22 @@ public final class ArrayPractice {
         }
         return sum;
     }
-
+    /**
+     * Remove {@code member} from {@code values}
+     * @param member: the value to be removed
+     * @param values: the values in array form
+     * @return the new array with the value removed
+     */
+    public static double[] removeElement(double member, double[] values) {
+        double[] newValues = new double[values.length];
+        int index = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] != member) {
+                newValues[index++] = values[i];
+            }
+        }
+        return Arrays.copyOf(newValues,index);
+    }
     /**
      * Calculate the average value of {@code values}. {@code values} must not be empty.
      * @param values: given values in array form
