@@ -17,7 +17,6 @@ public final class ArrayPractice {
         }
         return sum;
     }
-
     /**
      * Calculate the average value of {@code values}. {@code values} must not be empty.
      * @param values: given values in array form
@@ -32,5 +31,21 @@ public final class ArrayPractice {
             total += value;
         }
         return total / values.length;
+    }
+    /**
+     * Find the locations of {@code find_value} in {@code values}.
+     * @param findValue: the value needs to be found
+     * @param values: given values in array form
+     * @return the location of the value
+     */
+    public static int[] searchIndex(double findValue, double[] values) {
+        int[] locations = new int[values.length];
+        int counter = 0;
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == findValue) {
+                locations[counter++] = index;
+            }
+        }
+        return Arrays.copyOf(locations, counter);
     }
 }
