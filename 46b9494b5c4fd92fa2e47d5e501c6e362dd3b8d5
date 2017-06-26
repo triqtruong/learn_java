@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "4dd90145_3049bbe6",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T02:41:07Z",
+      "side": 1,
+      "message": "Well, talking about line by line, java does not guarantee that lines will be executed in order. For example, if you have code like this:\nint a \u003d 1;\nint b \u003d 2;\nThe final program can run: int a \u003d 1; int b \u003d 2;\nor it can run: int b \u003d 2; int a \u003d 1;\nIt freely reorder the executions to make it more efficient. It only warranty that if it reorder, the program is still executed correctly. So in this case, it does not matter whether a \u003d 1 is executed first or b \u003d 2 is executed first.\nThere\u0027s a lot to learn about Java and computer. You just need to be patient.",
+      "parentUuid": "859c4b05_2263bc97",
+      "range": {
+        "startLine": 16,
+        "startChar": 37,
+        "endLine": 16,
+        "endChar": 43
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4c81d06b_107b1e85",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 7
@@ -132,6 +156,30 @@
       "side": 1,
       "message": "Just wondering, for this pattern, is it mainly for readability, or performance of the program?",
       "parentUuid": "8b7095ba_1e57193d",
+      "range": {
+        "startLine": 18,
+        "startChar": 10,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e035ef32_3625c6aa",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T02:41:07Z",
+      "side": 1,
+      "message": "This is for readability. Imagine you have program like this:\nif (condition 1) {\n    return 1;\n} else {\n    blah blah blah\n    if (condition 2) {\n        return 2;\n    } else {\n        blah blah blah\n        if (condition 3) {\n            return 3;\n        } else {\n            blah blah blah\n            return 4;\n        }\n    }\n}\n\nNow you\u0027ll see that there\u0027s a lot of nested if here. Compared that to this program:\nif (condition 1) {\n    return 1;\n}\nblah blah blah\nif (condition 2) {\n    return 2;\n}\nblah blah blah\nif (condition 3) {\n    return 3;\n}\nblah blah blah\nreturn 4;\nSo in this new code, there is no nested if.",
+      "parentUuid": "8e0bc6d1_9f93533e",
       "range": {
         "startLine": 18,
         "startChar": 10,
