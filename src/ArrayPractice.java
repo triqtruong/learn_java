@@ -33,4 +33,58 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
+    /**
+     * Count quantity of {@code element} in {@code value}. {@code values} must not be empty.
+     * @param element: the element to be counted
+     * @param values: the values in array form
+     * @return quantity of the element
+     */
+    public static int countElement(double element, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid input");
+        }
+
+        int count = 0;
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == element) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * Remove {@code member} from {@code values}. {@code values} must not be empty and quantity of {@code member}  is 1
+     * @param member: the value to be removed
+     * @param values: the values in array form
+     * @return the new array with the value removed
+     */
+    public static double[] removeElement(double member, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid input");
+        }
+
+        int count = countElement(member, values);
+        if (count != 1) {
+            throw new IllegalArgumentException("Invalid input");
+        }
+
+        int location = 0;
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == member) {
+                location = index;
+            }
+        }
+        int length = values.length - 1;
+        double[] newValues = new double[length];
+        int counter = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (i != location) {
+                newValues[counter] = values[i];
+                counter++;
+            }
+        }
+        return newValues;
+    }
 }

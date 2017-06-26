@@ -1,4 +1,6 @@
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArrayPracticeTest {
@@ -35,5 +37,20 @@ class ArrayPracticeTest {
         double[] values = {4};
         double average = ArrayPractice.avgArray(values);
         assertEquals(4, average);
+    }
+
+    @Test
+    public void countElement_multipleValues() {
+        double[] values = {0, 1, 2, 3, 4, 5, 1};
+        int count = ArrayPractice.countElement(1,values);
+        assertEquals(2, count);
+    }
+
+    @Test
+    public void removeElement_multipleValues() {
+        double[] values = {0, 1, 2, 3, 4, 5, 6, 7, 8};
+        double[] new_values = ArrayPractice.removeElement(2, values);
+        double[] expected = {0, 1, 3, 4, 5, 6, 7, 8};
+        assertArrayEquals(expected, new_values);
     }
 }
