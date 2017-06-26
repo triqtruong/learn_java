@@ -33,4 +33,45 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
+    /**
+     * Count the quantity of {@code element} of {@code values}. {@code values} must not be empty.
+     * @param element the element to be counted
+     * @param values the values in array form
+     * @return the quantity of the element
+     */
+    public static int countElement(double element, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid input");
+        }
+        int amount = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] == element) {
+                amount++;
+            }
+        }
+        return amount;
+    }
+
+    /**
+     * Find the locations of {@code find_value} in {@code values}. {@code values} must not be empty
+     * @param find_value: the value needs to be found
+     * @param values: given values in array form
+     * @return the location of the value
+     */
+    public  static int[] searchIndex(double find_value, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid Inputs");
+        }
+        int counter = 0;
+        int amount = countElement(find_value, values);
+        int[] location = new int[amount];
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == find_value) {
+                location[counter] = index;
+                counter++;
+            }
+        }
+        return location;
+    }
 }
