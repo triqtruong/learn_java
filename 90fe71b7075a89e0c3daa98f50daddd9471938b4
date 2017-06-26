@@ -22,6 +22,29 @@
       "revId": "90fe71b7075a89e0c3daa98f50daddd9471938b4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b8b093c_5927617a",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T02:50:44Z",
+      "side": 1,
+      "message": "Oh, and I forgot, this variable should be named: total or sum. Since you computing the sum. One the last line, you return sum / length which is average. Again, the name is very important to reflect the real purpose for the variable.",
+      "range": {
+        "startLine": 15,
+        "startChar": 15,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "90fe71b7075a89e0c3daa98f50daddd9471938b4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
