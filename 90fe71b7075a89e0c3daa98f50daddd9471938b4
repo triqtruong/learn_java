@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6879cb73_d6d044d9",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T02:41:07Z",
+      "side": 1,
+      "message": "move this declaration down after this if. It does not need to be declared above the if since the method already exit before average is even needed if the condition for if is true.",
+      "range": {
+        "startLine": 15,
+        "startChar": 15,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "90fe71b7075a89e0c3daa98f50daddd9471938b4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
