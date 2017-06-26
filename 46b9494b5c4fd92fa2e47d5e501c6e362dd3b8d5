@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "859c4b05_2263bc97",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-26T02:25:51Z",
+      "side": 1,
+      "message": "this totally makes sense now.\nI know that the command is operated line by line, but I didn\u0027t really pay much attention to which command will finish first if they\u0027re in the same line.\nVery interesting!",
+      "parentUuid": "c023c976_5a9d7b92",
+      "range": {
+        "startLine": 16,
+        "startChar": 37,
+        "endLine": 16,
+        "endChar": 43
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4c81d06b_107b1e85",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 7
@@ -84,6 +108,30 @@
       "side": 1,
       "message": "Also, let me explain this pattern a bit. If you have something like:\n\nif (condition 1) {\n  return ...;\n} else {\n  // do some some other things with a lot of lines\n  return ...;\n}\n\nThen you better write like this:\nif (condition 1) {\n  return ...;\n}\n// do some other things with a lot of lines\nreturn ...;\n\nsimilarly for throw:\nif (condition 1) {\n  throw ...;\n} else {\n  do somethings\n  return stuff;\n}\nshould be written as:\nif (condition 1) {\n  throw ...;\n}\ndo something\nreturn stuff;",
       "parentUuid": "4c81d06b_107b1e85",
+      "range": {
+        "startLine": 18,
+        "startChar": 10,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e0bc6d1_9f93533e",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-26T02:25:51Z",
+      "side": 1,
+      "message": "Just wondering, for this pattern, is it mainly for readability, or performance of the program?",
+      "parentUuid": "8b7095ba_1e57193d",
       "range": {
         "startLine": 18,
         "startChar": 10,
