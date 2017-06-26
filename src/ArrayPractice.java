@@ -33,4 +33,41 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
+    public static int countElement(double element, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid input");
+        }
+        int amount = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] == element) {
+                amount++;
+            }
+        }
+        return amount;
+    }
+
+    public  static int[] searchIndex(double find_value, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid Inputs");
+        }
+        int counter = 0;
+        int amount = countElement(find_value, values);
+        int[] location = new int[amount];
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == find_value) {
+                location[counter] = index;
+                counter++;
+            }
+        }
+        return location;
+    }
+
+    public static void main(String[] arg) {
+        double[] array = {0, 1, 2, 3, 4, 1, 2};
+
+        ArrayPractice check = new ArrayPractice();
+        int[] amount = check.searchIndex(1, array);
+        System.out.println(Arrays.toString(amount));
+    }
 }
