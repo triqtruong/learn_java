@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c023c976_5a9d7b92",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T00:48:17Z",
+      "side": 1,
+      "message": "Let me explain a bit about logical operator AND \u0026\u0026 and logical operator OR ||.\n\nLogical AND:\ntrue AND true \u003d true\ntrue AND false \u003d false\nfalse AND true \u003d false\nfalse AND false \u003d false\n\nTherefore, if you have if (a \u0026\u0026 b), and a happens to be false, this a \u0026\u0026 b is definitely false no matter what value b is. Therefore, the computer does not even evaluate the b condition. This is helpful for case like:\n\nif (values !\u003d null \u0026\u0026 values.length \u003e 0)\nIn this case, if value is null, then the first check values !\u003d null will be false, therefore the computer does not evaluate the values.length \u003e 0 any more. Imagine if the computer also evaluate values.length \u003e 0, it would crash your program because values is null, therefore, values.length will throw NullPointerException.\n\nSimilarly for OR:\ntrue OR true \u003d true\ntrue OR false \u003d true\nfalse OR true \u003d true\nfalse OR false \u003d false\nTherefore, if you have if (a || b) and a happens to be true, this expression a || b will definitely be true no mater what value b is. So the computer does not have to evaluate the b condition. This is helpful for case like:\n\nif (values \u003d\u003d null || values.length \u003d\u003d 0)\nif values is null, then values \u003d\u003d null is true, the computer does not have to evaluate the values.length any more (which can lead to crash if it evaluates it).\nIf values is not null, then the values \u003d\u003d null is false, the computer will evaluate the next expression which is values.length, but since values is not null, this values.length should not crash.\n\nPlease let me know if you understand this concept. If not, I find more related material to help you understand this. This is quite important.",
+      "parentUuid": "05a1d5c5_d757380a",
+      "range": {
+        "startLine": 16,
+        "startChar": 37,
+        "endLine": 16,
+        "endChar": 43
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4c81d06b_107b1e85",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 7
