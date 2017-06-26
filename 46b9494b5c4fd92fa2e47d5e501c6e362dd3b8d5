@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05a1d5c5_d757380a",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T00:05:21Z",
+      "side": 1,
+      "message": "You must check the values \u003d\u003d null first:\n\nif (values \u003d\u003d null || values.length \u003d\u003d 0) {\n  ...\n\nRemember, if values \u003d\u003d null, your values.length \u003d\u003d 0 check will crash before it has the chance for this check values \u003d\u003d null.",
+      "range": {
+        "startLine": 16,
+        "startChar": 37,
+        "endLine": 16,
+        "endChar": 43
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4c81d06b_107b1e85",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T00:05:21Z",
+      "side": 1,
+      "message": "You don\u0027t need this else because once it throw the error, the code will exit this method.",
+      "range": {
+        "startLine": 18,
+        "startChar": 10,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
