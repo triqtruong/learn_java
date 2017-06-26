@@ -33,4 +33,30 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
+    /**
+     * Remove {@code member} from {@code values}
+     * @param member: the value to be removed
+     * @param values: the values in array form
+     * @return the new array with the value removed
+     */
+    public static double[] removeElement(double member, double[] values) {
+        int[] location = new int[values.length];
+        int amount = 0;
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == member) {
+                location[amount++] = index;
+            }
+        }
+        int length = values.length - amount;
+        double[] newValues = new double[length];
+        int index = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] != member) {
+                newValues[index] = values[i];
+                index++;
+            }
+        }
+        return newValues;
+    }
 }
