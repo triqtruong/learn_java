@@ -69,6 +69,30 @@
       "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b7095ba_1e57193d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T00:54:08Z",
+      "side": 1,
+      "message": "Also, let me explain this pattern a bit. If you have something like:\n\nif (condition 1) {\n  return ...;\n} else {\n  // do some some other things with a lot of lines\n  return ...;\n}\n\nThen you better write like this:\nif (condition 1) {\n  return ...;\n}\n// do some other things with a lot of lines\nreturn ...;\n\nsimilarly for throw:\nif (condition 1) {\n  throw ...;\n} else {\n  do somethings\n  return stuff;\n}\nshould be written as:\nif (condition 1) {\n  throw ...;\n}\ndo something\nreturn stuff;",
+      "parentUuid": "4c81d06b_107b1e85",
+      "range": {
+        "startLine": 18,
+        "startChar": 10,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "46b9494b5c4fd92fa2e47d5e501c6e362dd3b8d5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
