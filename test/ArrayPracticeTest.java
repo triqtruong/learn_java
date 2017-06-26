@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArrayPracticeTest {
@@ -36,4 +37,13 @@ class ArrayPracticeTest {
         double average = ArrayPractice.avgArray(values);
         assertEquals(4, average);
     }
+
+    @Test
+    public void searchIndex_multipleElements() {
+        double[] values = {0, 1, 2, 3, 4, 1, 2};
+        int[] indexLocation = ArrayPractice.searchIndex(1, values);
+        int[] expected = {1, 5};
+        assertArrayEquals(expected, indexLocation);
+    }
+
 }
