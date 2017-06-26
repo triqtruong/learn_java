@@ -5,6 +5,22 @@ import java.util.Arrays;
  * http://www.w3resource.com/java-exercises/array/index.php
  */
 public final class ArrayPractice {
+    /**
+     * Calculate the total sum of {@code values}. {@code values} must not be empty
+     * @param values: given values in array form
+     * @return the total sum of all member in array
+     */
+    public static double sumArray(double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            throw new IllegalArgumentException("Invalid Input");
+        }
+
+        double sum = 0;
+        for (double number : values) {
+            sum += number;
+        }
+        return sum;
+    }
 
     /**
      * Calculate the average value of {@code values}. {@code values} must not be empty.
@@ -21,4 +37,5 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
 }
