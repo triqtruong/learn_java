@@ -3,16 +3,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArrayPracticeTest {
     @Test
-    public void avgArray_multipleValues() {
+    public void sumArray_multipleValues() {
         double[] values = {1, 2, 3, 4};
-        double average = ArrayPractice.avgArray(values);
-        assertEquals(2.5, average);
+        double average = ArrayPractice.sumArray(values);
+        assertEquals(10, average);
     }
 
     @Test
-    public void avgArray_oneValue() {
+    public void sumArray_oneValue() {
         double[] values = {4};
-        double average = ArrayPractice.avgArray(values);
+        double average = ArrayPractice.sumArray(values);
         assertEquals(4, average);
     }
 }
