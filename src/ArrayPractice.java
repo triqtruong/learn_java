@@ -33,4 +33,27 @@ public final class ArrayPractice {
         }
         return total / values.length;
     }
+
+    /**
+     * Find the locations of {@code find_value} in {@code values}. {@code values} must not be empty
+     * @param findValue: the value needs to be found
+     * @param values: given values in array form
+     * @return the location of the value
+     */
+    public  static int[] searchIndex(double findValue, double[] values) {
+        if ((values == null) || (values.length == 0)) {
+            return null;
+        }
+        int[] locations = new int[values.length];
+        int counter = 0;
+        for (int index = 0; index < values.length; index++) {
+            if (values[index] == findValue) {
+                locations[counter] = index;
+                counter++;
+            }
+        }
+        int indexes[] = new int[counter];
+        System.arraycopy(locations,0, indexes,0,counter);
+        return indexes;
+    }
 }
