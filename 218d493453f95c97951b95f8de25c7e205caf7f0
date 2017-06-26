@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "add72428_7857c7b7",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T16:40:26Z",
+      "side": 1,
+      "message": "remove this method",
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "47f236ca_acbf4910",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T16:40:26Z",
+      "side": 1,
+      "message": "variable or argument names in java is camelCase.",
+      "range": {
+        "startLine": 62,
+        "startChar": 44,
+        "endLine": 62,
+        "endChar": 54
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "318dc6c4_689efb60",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T16:40:26Z",
+      "side": 1,
+      "message": "Empty array should be fine. If you search something in the array, it\u0027s common sense that you would return empty result",
+      "range": {
+        "startLine": 64,
+        "startChar": 22,
+        "endLine": 64,
+        "endChar": 46
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f623168_ec880ddd",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T16:40:26Z",
+      "side": 1,
+      "message": "You don\u0027t need this. An easy way to do this is to create the locations array the same size as the values:\nint[] locations \u003d new int[values.length];\nThen later on, trim the array. Look through the Arrays class to see which method you can use to do that.",
+      "range": {
+        "startLine": 67,
+        "startChar": 21,
+        "endLine": 67,
+        "endChar": 33
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "99339062_0cce3b29",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-26T16:40:26Z",
+      "side": 1,
+      "message": "variable name should have the \u0027s to reflect that this is plural: locations. Or even better, name this indexes because locations is a bit vague. Index is immediately understandable that it\u0027s 0-based index.",
+      "range": {
+        "startLine": 68,
+        "startChar": 14,
+        "endLine": 68,
+        "endChar": 22
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
