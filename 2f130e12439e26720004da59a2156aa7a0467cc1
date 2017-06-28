@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "473585e6_78c67fb1",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T05:14:56Z",
+      "side": 1,
+      "message": "rename this variable",
+      "range": {
+        "startLine": 44,
+        "startChar": 14,
+        "endLine": 44,
+        "endChar": 22
+      },
+      "revId": "2f130e12439e26720004da59a2156aa7a0467cc1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c8450c8_96d273dd",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T05:14:56Z",
+      "side": 1,
+      "message": "This is very inefficient. You try to build a list of values that equal to member, then using it just to know the size for the values not equal to member then build the list of values that are not equal to member.\n\nWhy don\u0027t you just build the list of values that are not equal to the member in the first place.",
+      "range": {
+        "startLine": 46,
+        "startChar": 8,
+        "endLine": 59,
+        "endChar": 9
+      },
+      "revId": "2f130e12439e26720004da59a2156aa7a0467cc1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
