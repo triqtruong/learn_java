@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e3186ab1_8e3e458a",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T04:59:12Z",
+      "side": 1,
+      "message": "All these lines can just be replaced with:\nreturn Arrays.copyOf(locations, counter);",
+      "range": {
+        "startLine": 51,
+        "startChar": 8,
+        "endLine": 53,
+        "endChar": 23
+      },
+      "revId": "2a66f9257c0abe58bd98044fd5dc2566964198eb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
