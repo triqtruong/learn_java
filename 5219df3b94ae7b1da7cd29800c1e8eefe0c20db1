@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba364478_8d39edc0",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "remove. Empty values should be fine (i.e. passing new double[0]) should be fine).",
+      "range": {
+        "startLine": 38,
+        "startChar": 67,
+        "endLine": 38,
+        "endChar": 99
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9e78d420_0e97219f",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "replace 2 spaces with one space",
+      "range": {
+        "startLine": 43,
+        "startChar": 10,
+        "endLine": 43,
+        "endChar": 12
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "05071ab7_b84a0b9b",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "This is not needed",
+      "range": {
+        "startLine": 44,
+        "startChar": 8,
+        "endLine": 46,
+        "endChar": 9
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "750cbc4b_bd87467d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "You can also write:\nlocations[counter++] \u003d index;",
+      "range": {
+        "startLine": 51,
+        "startChar": 16,
+        "endLine": 52,
+        "endChar": 26
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "87606a91_3fe5a933",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "This is fine, but Arrays.copyOf() is shorter.",
+      "range": {
+        "startLine": 56,
+        "startChar": 15,
+        "endLine": 56,
+        "endChar": 24
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bb90a247_71bdb73f",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T02:19:32Z",
+      "side": 1,
+      "message": "Need more test for this method searchIndex.\nHow about:\nsearchIndex_emptyValues\nsearchIndex_multipleValuesFoundNone",
+      "range": {
+        "startLine": 42,
+        "startChar": 16,
+        "endLine": 42,
+        "endChar": 27
+      },
+      "revId": "5219df3b94ae7b1da7cd29800c1e8eefe0c20db1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
