@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3775f069_6ec406bc",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T14:41:42Z",
+      "side": 1,
+      "message": "The purpose of these 2 changes is to tech you the next concept of Git and Gerrit.\nYou will recognize that there are some conflicts between your changes here.\nIf you have a file like this:\nAAA\nAnd 2 changes try to change that file: one try to change to:\nAAA\nBBB\nand the other try to change to:\nAAA\nCCC\nThe system wouldn\u0027t know how to merge this because the outcome can be:\nAAA\nBBB\nCCC\nor:\nAAA\nCCC\nBBB\nso you would have to merge it manually.\nBut merging is not what I want you to do now (you will learn that for the next new changes). For these 2 changes, I\u0027d you to modify this change so that it can be automatically merged. So come back to the previous example, if one change is:\nBBB\nAAA\nand another change is:\nAAA\nCCC\nthen the automatic merge is possible: it\u0027s just\nBBB\nAAA\nCCC\nSo what you need to do here is to move this method moveElement above the method avgArray\nAnd do the same for test",
+      "revId": "9b76c6ec27f952be99ac703a1026eb726df4fcbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4af48239_b46c4098",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T14:41:42Z",
+      "side": 1,
+      "message": "remove this empty line to make it consistent with the other change.",
+      "revId": "9b76c6ec27f952be99ac703a1026eb726df4fcbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f559ef0c_eb6a1410",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-28T14:41:42Z",
+      "side": 1,
+      "message": "Move this test above the avgArray test",
+      "range": {
+        "startLine": 43,
+        "startChar": 16,
+        "endLine": 43,
+        "endChar": 44
+      },
+      "revId": "9b76c6ec27f952be99ac703a1026eb726df4fcbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
