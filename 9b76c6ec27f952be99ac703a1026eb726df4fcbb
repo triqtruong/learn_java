@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1df085e5_dd00ccb4",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-29T03:15:39Z",
+      "side": 1,
+      "message": "Before proceeding further, you need to disable the auto merge. Go to your project page: https://review.gerrithub.io/#/admin/projects/triqtruong/learn_java and Submit type to \"Fast forward\"",
+      "parentUuid": "a68dea7d_741b1383",
+      "revId": "9b76c6ec27f952be99ac703a1026eb726df4fcbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4af48239_b46c4098",
         "filename": "test/ArrayPracticeTest.java",
         "patchSetId": 3
