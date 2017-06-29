@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a68dea7d_741b1383",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-29T02:58:36Z",
+      "side": 1,
+      "message": "This is really cool. I never know I can do this to have it merge automatically.",
+      "parentUuid": "3775f069_6ec406bc",
+      "revId": "9b76c6ec27f952be99ac703a1026eb726df4fcbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4af48239_b46c4098",
         "filename": "test/ArrayPracticeTest.java",
         "patchSetId": 3
