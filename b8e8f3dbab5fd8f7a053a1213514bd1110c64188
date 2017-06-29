@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ac37ebaf_6f2324cb",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-29T03:15:39Z",
+      "side": 1,
+      "message": "Remove trailing spaces. Normally, you should not leave trailing spaces.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 4
+      },
+      "revId": "b8e8f3dbab5fd8f7a053a1213514bd1110c64188",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
