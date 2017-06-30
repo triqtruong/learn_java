@@ -67,4 +67,19 @@ public final class ArrayPractice {
         }
         return Arrays.copyOf(locations, counter);
     }
+
+    /**
+     * Insert an {@code element} into {@code values} at {@code position}.
+     * @param element: the element to be inserted
+     * @param position: the position where the element will be inserted.
+     * @param values: the values which the element will be insert into.
+     * @return values with the new element inserted
+     */
+    public static double[] insertIndex(double element, int position, double[] values) {
+        double[] newValues = new double[values.length + 1];
+        newValues[position] = element;
+        System.arraycopy(values, 0, newValues, 0, position);
+        System.arraycopy(values, position, newValues, position +1, newValues.length - position - 1);
+        return newValues;
+    }
 }
