@@ -53,4 +53,12 @@ class ArrayPracticeTest {
         int[] expected = {1, 5};
         assertArrayEquals(expected, indexLocation);
     }
+
+    @Test
+    public void insertIndex_oneElement() {
+        double[] values = {0};
+        double[] newValues = ArrayPractice.insertIndex(2,0,values);
+        double[] expected = {2, 0};
+        assertArrayEquals(expected,newValues);
+    }
 }
