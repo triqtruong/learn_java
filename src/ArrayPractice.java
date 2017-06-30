@@ -67,4 +67,16 @@ public final class ArrayPractice {
         }
         return Arrays.copyOf(locations, counter);
     }
+
+    /** Reversing the {@code values}.
+     * @param values the values to be reversed.
+     * @return the reversed values.
+     */
+    public static double[] reverseIndex(double[] values) {
+        double[] reversed = new double[values.length];
+        for (int index = 0; index < values.length; index++) {
+            reversed[index] = values[values.length - index - 1];
+        }
+        return reversed;
+    }
 }
