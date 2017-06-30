@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "53763b27_cb951649",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T18:50:15Z",
+      "side": 1,
+      "message": "I did a bit of research on this. Is this mainly to save one iteration, or comparison, when the 2nd statement, i\u003clength, not true?",
+      "parentUuid": "37184249_eae4cad9",
+      "range": {
+        "startLine": 77,
+        "startChar": 13,
+        "endLine": 77,
+        "endChar": 58
+      },
+      "revId": "1df057180c47ffd95eb9da6dc255391d4ca26f3b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "86278b98_491c4eae",
         "filename": "test/ArrayPracticeTest.java",
         "patchSetId": 2
