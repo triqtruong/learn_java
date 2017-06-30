@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a8e59f5f_7f8d9d4d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-30T17:03:20Z",
+      "side": 1,
+      "message": "move this method to the end because we need to have some conflicts to learn about rebasing manually.",
+      "revId": "eb64b805924e24834b1f41783f838b183b5b13b6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a8e6bc49_b4f7b732",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-30T17:03:20Z",
+      "side": 1,
+      "message": "Typically for java, you never need to have 2 empty lines. You should just have one empty line.",
+      "revId": "eb64b805924e24834b1f41783f838b183b5b13b6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
