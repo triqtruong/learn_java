@@ -47,6 +47,22 @@ class ArrayPracticeTest {
     }
 
     @Test
+    public void reverseIndex_oneElement() {
+        double[] values = {0};
+        double[] reversing = ArrayPractice.reverseIndex(values);
+        double[] expected = {0};
+        assertArrayEquals(expected,reversing);
+    }
+
+    @Test
+    public void reverseIndex_multipleElement() {
+        double[] values = {0, 1, 2, 3, 4, 5};
+        double[] reversing = ArrayPractice.reverseIndex(values);
+        double[] expected = {5, 4, 3, 2, 1, 0};
+        assertArrayEquals(expected, reversing);
+    }
+
+    @Test
     public void searchIndex_multipleElements() {
         double[] values = {0, 1, 2, 3, 4, 1, 2};
         int[] indexLocation = ArrayPractice.searchIndex(1, values);
