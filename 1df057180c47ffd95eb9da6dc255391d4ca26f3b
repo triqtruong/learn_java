@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "37184249_eae4cad9",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-30T17:17:14Z",
+      "side": 1,
+      "message": "You should just use:\nfor (int i \u003d 0; i \u003c values.length; ++i) {\n\nThis pattern is common, using index name is heavy and it\u0027s hard to read. Also, learn to use ++i instead of i++ in a for loop like this. I will appreciate that when writing code in C++ because ++a is more efficient than a++. It\u0027s your exercise to figure out why.",
+      "range": {
+        "startLine": 77,
+        "startChar": 13,
+        "endLine": 77,
+        "endChar": 58
+      },
+      "revId": "1df057180c47ffd95eb9da6dc255391d4ca26f3b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86278b98_491c4eae",
+        "filename": "test/ArrayPracticeTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-30T17:17:14Z",
+      "side": 1,
+      "message": "remove trailing spaces. Notice the read color here.",
+      "revId": "1df057180c47ffd95eb9da6dc255391d4ca26f3b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
