@@ -16,6 +16,24 @@
       "revId": "2c6329a2d000b99fc2d7c8e531afdc86a6f5d652",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a0b800a6_351c3abf",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T00:02:09Z",
+      "side": 1,
+      "message": "I think I understand what you meant. I\u0027ll upload the fix for the 2 changes asap",
+      "parentUuid": "f68a8d88_2e1a5c21",
+      "revId": "2c6329a2d000b99fc2d7c8e531afdc86a6f5d652",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
