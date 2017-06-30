@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a3449dcf_6cb0391d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-06-30T20:25:19Z",
+      "side": 1,
+      "message": "Move this to the next line. The pattern is like this:\n/**\n * Blah blah.\n * ...\n */",
+      "range": {
+        "startLine": 71,
+        "startChar": 8,
+        "endLine": 71,
+        "endChar": 37
+      },
+      "revId": "3ef3408b5ce1bf54154f0d45b834b6fabcd5a7d3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
