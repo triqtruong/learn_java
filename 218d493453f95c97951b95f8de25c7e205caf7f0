@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "25256505_82b6625b",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T01:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "add72428_7857c7b7",
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "47f236ca_acbf4910",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 2
@@ -30,6 +48,30 @@
       "writtenOn": "2017-06-26T16:40:26Z",
       "side": 1,
       "message": "variable or argument names in java is camelCase.",
+      "range": {
+        "startLine": 62,
+        "startChar": 44,
+        "endLine": 62,
+        "endChar": 54
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "adb35f48_37c2775a",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T01:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47f236ca_acbf4910",
       "range": {
         "startLine": 62,
         "startChar": 44,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "b889bb58_7d66c828",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T01:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "318dc6c4_689efb60",
+      "range": {
+        "startLine": 64,
+        "startChar": 22,
+        "endLine": 64,
+        "endChar": 46
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f623168_ec880ddd",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 2
@@ -88,6 +154,30 @@
     },
     {
       "key": {
+        "uuid": "204bdd3f_35c46b8e",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T01:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7f623168_ec880ddd",
+      "range": {
+        "startLine": 67,
+        "startChar": 21,
+        "endLine": 67,
+        "endChar": 33
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "99339062_0cce3b29",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 2
@@ -99,6 +189,30 @@
       "writtenOn": "2017-06-26T16:40:26Z",
       "side": 1,
       "message": "variable name should have the \u0027s to reflect that this is plural: locations. Or even better, name this indexes because locations is a bit vague. Index is immediately understandable that it\u0027s 0-based index.",
+      "range": {
+        "startLine": 68,
+        "startChar": 14,
+        "endLine": 68,
+        "endChar": 22
+      },
+      "revId": "218d493453f95c97951b95f8de25c7e205caf7f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98324908_3f135abb",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-06-30T01:29:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99339062_0cce3b29",
       "range": {
         "startLine": 68,
         "startChar": 14,
