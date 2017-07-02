@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * Class created to solve problems of w3resource
@@ -94,5 +95,23 @@ public final class ArrayPractice {
             reversed[i] = values[values.length - i - 1];
         }
         return reversed;
+    }
+
+    /**
+     * Find the duplicated element of {@code strings}.
+     * @param strings: the given string.
+     * @return the duplicated elements.
+     */
+    public static String[] duplicateString(String[] strings) {
+        HashSet<String> find = new HashSet<String>();
+        HashSet<String> duplicates = new HashSet<String>();
+        for (int i = 0; i < strings.length; ++i) {
+            boolean added = find.add(strings[i]);
+            if (!added) {
+                duplicates.add(strings[i]);
+            }
+        }
+        String[] out = new String[duplicates.size()];
+        return duplicates.toArray(out);
     }
 }
