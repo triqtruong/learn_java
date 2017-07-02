@@ -85,4 +85,12 @@ class ArrayPracticeTest {
         double[] expected = {5, 4, 3, 2, 1, 0};
         assertArrayEquals(expected, reversing);
     }
+
+    @Test
+    public void duplicateString_multipleElements() {
+        String[] strings = {"aa", "b", "d", "aa", "c", "b", "a"};
+        String[] duplicates = ArrayPractice.duplicateString(strings);
+        String[] expected = {"aa", "b"};
+        assertArrayEquals(expected, duplicates);
+    }
 }
