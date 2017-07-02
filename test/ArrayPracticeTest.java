@@ -85,4 +85,12 @@ class ArrayPracticeTest {
         double[] expected = {5, 4, 3, 2, 1, 0};
         assertArrayEquals(expected, reversing);
     }
+
+    @Test
+    public void duplicateNumber_multipleElements() {
+        double[] values = {0, 1, 4, 2, 1, 4, 3, 4, 1};
+        double[] duplicates = ArrayPractice.duplicateNumber(values);
+        double[] expected = {1, 4};
+        assertArrayEquals(expected,duplicates);
+    }
 }

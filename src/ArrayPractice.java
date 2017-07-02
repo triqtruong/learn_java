@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  * Class created to solve problems of w3resource
@@ -94,5 +96,34 @@ public final class ArrayPractice {
             reversed[i] = values[values.length - i - 1];
         }
         return reversed;
+    }
+
+    /**
+     * Find the duplicated number in {@code values}.
+     * @param values: the values to check.
+     * @return the duplicated element in the found order.
+     */
+    public static double[] duplicateNumber(double[] values) {
+        boolean status = false;
+        double[] duplicates = new double[values.length];
+        int amount = 0;
+        for (int i = 0; i < values.length; ++i) {
+            for (int k = i + 1; k < values.length; ++k) {
+                if (values[i] == values[k]) {
+                    for (int j = 0; j <= amount; ++j) {         // Compare all previous duplicated values
+                        if (values[k] == duplicates[j]) {       // Duplicated element was saved before
+                            status = true;
+                        }
+                    }
+
+                    if (status == false) {
+                        duplicates[amount++] = values[k];
+                    } else {
+                        status = false;
+                    }
+                }
+            }
+        }
+        return Arrays.copyOf(duplicates,amount);
     }
 }
