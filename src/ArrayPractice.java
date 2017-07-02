@@ -95,4 +95,22 @@ public final class ArrayPractice {
         }
         return reversed;
     }
+
+    /**
+     * Find the duplicated number in {@code values}.
+     * @param values: the values to check.
+     * @return the duplicated element in the found order.
+     */
+    public static double[] duplicateNumber(double[] values) {
+        double[] duplicates = new double[values.length];
+        int amount = 0;
+        for (int i = 0; i < values.length; ++i) {
+            for (int k = i + 1; k < values.length; ++k) {
+                if ((values[i] == values[k]) && (i != k) && ((amount == 0) || (values[k] != duplicates[amount - 1]))) {
+                    duplicates[amount++] = values[k];
+                }
+            }
+        }
+        return Arrays.copyOf(duplicates,amount);
+    }
 }
