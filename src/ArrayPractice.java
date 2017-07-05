@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.*;
 
 /**
  * Class created to solve problems of w3resource
@@ -94,5 +95,28 @@ public final class ArrayPractice {
             reversed[i] = values[values.length - i - 1];
         }
         return reversed;
+    }
+
+    /**
+     * Find common strings between {@code strings1} and {@code strings2}.
+     * @param strings1: the first string array to be compared
+     * @param strings2: the second string array to be compared
+     * @return: the common elements between {@code strings1} and {@code strings2}
+     */
+    public static String[] commonString(String[] strings1, String[] strings2) {
+        HashMap<String, Boolean> common = new HashMap<String, Boolean>();
+        String[] duplicates = new String[strings1.length + strings2.length];
+        int duplicatesSize = 0;
+        for (String key : strings1) {
+            common.put(key,false);
+        }
+        for (String key : strings2) {
+            Boolean check = (Boolean)common.get(key);
+            if ((common.containsKey(key)) && (!check)) {
+                duplicates[duplicatesSize++] = key;
+                common.put(key,true);
+            }
+        }
+        return Arrays.copyOf(duplicates,duplicatesSize);
     }
 }
