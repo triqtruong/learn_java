@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * Class created to solve problems of w3resource
@@ -94,5 +96,43 @@ public final class ArrayPractice {
             reversed[i] = values[values.length - i - 1];
         }
         return reversed;
+    }
+
+    /**
+     * Find common strings between {@code strings1} and {@code strings2}.
+     * @param strings1: the first string array to be compared
+     * @param strings2: the second string array to be compared
+     * @return: the common elements between {@code strings1} and {@code strings2}
+     */
+    public static String[] commonString(String[] strings1, String[] strings2) {
+        int lengthFirst;
+        int lengthSecond;
+        if (strings1.length > strings2.length) {
+            lengthFirst = strings2.length;
+            lengthSecond = strings1.length;
+        } else {
+            lengthFirst = strings1.length;
+            lengthSecond = strings2.length;
+        }
+        HashSet<String> common = new HashSet<String>();  // store similar element
+        String[] copyFirst = new String[lengthFirst];
+        String[] copySecond = new String[lengthSecond];
+        if (strings1.length > strings2.length) {
+            System.arraycopy(strings2,0,copyFirst,0,lengthFirst);
+            System.arraycopy(strings1,0,copySecond,0,lengthSecond);
+        } else {
+            System.arraycopy(strings1, 0, copyFirst, 0, lengthFirst);
+            System.arraycopy(strings2, 0, copySecond, 0, lengthSecond);
+        }
+
+        for(int i = 0; i < lengthFirst; ++i) {
+            for (int k = 0; k < lengthSecond; ++k) {
+                if (copyFirst[i] == copySecond[k]) {
+                    common.add(copySecond[k]);
+                }
+            }
+        }
+        String[] commonElement = new String[common.size()];
+        return common.toArray(commonElement);
     }
 }
