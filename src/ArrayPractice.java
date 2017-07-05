@@ -95,4 +95,39 @@ public final class ArrayPractice {
         }
         return reversed;
     }
+
+    /**
+     * Find the common numbers between {@code values1} and {@code values2}.
+     * @param values1: the first group of values.
+     * @param values2: the second group of values.
+     * @return the common number between the 2 group2.
+     */
+    public static double[] commonNumber(double[] values1, double[] values2) {
+        int commonLength;
+        boolean status = false;
+        if (values1.length > values2.length) {
+            commonLength = values2.length;
+        } else {
+            commonLength = values1.length;
+        }
+        double[] common = new double[commonLength];
+        int amount = 0;
+        for (int i = 0; i < values1.length; ++i) {
+            for (int j = 0; j < values2.length; ++j) {
+                if (values1[i] == values2[j]) {
+                    for (int k = 0; k <= amount; ++k) {
+                        if (values2[j] == common[k]) {
+                            status = true;
+                        }
+                    }
+                    if (status == false) {
+                        common[amount++] = values2[j];
+                    } else {
+                        status = false;
+                    }
+                }
+            }
+        }
+        return  Arrays.copyOf(common,amount);
+    }
 }
