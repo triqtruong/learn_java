@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.*;
 
 /**
  * Class created to solve problems of w3resource
@@ -94,5 +95,27 @@ public final class ArrayPractice {
             reversed[i] = values[values.length - i - 1];
         }
         return reversed;
+    }
+
+    /**
+     * Find the common numbers between {@code values1} and {@code values2}.
+     * @param values1: the first group of values.
+     * @param values2: the second group of values.
+     * @return the common number between the 2 group2.
+     */
+    public static double[] commonNumber(double[] values1, double[] values2) {
+        Arrays.sort(values1);
+        Arrays.sort(values2);
+        int amount = 0;
+        double[] common = new double[Math.min(values1.length, values2.length)];
+        for (int i = 0; i <values1.length; ++i) {
+            double test = Arrays.binarySearch(values2, values1[i]);
+            if (Arrays.binarySearch(values2,values1[i]) >= 0) {
+                if ((amount == 0) || (common[amount - 1] != values1[i] )) {
+                    common[amount++] = values1[i];
+                }
+            }
+        }
+        return Arrays.copyOf(common, amount);
     }
 }

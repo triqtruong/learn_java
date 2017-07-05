@@ -1,4 +1,8 @@
 import org.junit.jupiter.api.Test;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -84,5 +88,16 @@ class ArrayPracticeTest {
         double[] reversing = ArrayPractice.reverseIndex(values);
         double[] expected = {5, 4, 3, 2, 1, 0};
         assertArrayEquals(expected, reversing);
+    }
+
+    @Test
+    public void commonNumber_multipleElements() {
+        double[] values1 = {0, 1, 2, 1, 2, 3, 1};
+        double[] values2 = {6, 2, 8, 4, 2, 2, 1, 1};
+        double[] common = ArrayPractice.commonNumber(values1,values2);
+        double[] expected = {1, 2};
+        Arrays.sort(common);
+        Arrays.sort(expected);
+        assertArrayEquals(expected,common);
     }
 }
