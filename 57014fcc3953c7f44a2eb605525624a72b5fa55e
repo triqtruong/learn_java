@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "757d40ea_ed557a50",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-06T02:13:46Z",
+      "side": 1,
+      "message": "This is inefficient, with these 2 for loop, it becomes O(n^2) running time \u003d\u003e very slow.\n\nIf you already has the HashSet, put visited item to the hashset, if the same item is visited again, that it\u0027s a duplicate. This should only take O(n) time.",
+      "range": {
+        "startLine": 107,
+        "startChar": 8,
+        "endLine": 108,
+        "endChar": 58
+      },
+      "revId": "57014fcc3953c7f44a2eb605525624a72b5fa55e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
