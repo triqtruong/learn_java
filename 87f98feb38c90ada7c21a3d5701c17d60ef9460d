@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8cb7379_224648b7",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-08T20:08:06Z",
+      "side": 1,
+      "message": "This implementation is not yet correct. if you have a array { \"foo\", \"foo\", \"bar\", \"foo\" }, it will return [\"foo\", \"foo\"] while I would expect it return [\"foo\"].\n\nPut this case to your test.",
+      "range": {
+        "startLine": 105,
+        "startChar": 27,
+        "endLine": 105,
+        "endChar": 42
+      },
+      "revId": "87f98feb38c90ada7c21a3d5701c17d60ef9460d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57fab1ab_2dc52ed8",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-08T20:08:06Z",
+      "side": 1,
+      "message": "use a better name, e.g. duplicateSize",
+      "range": {
+        "startLine": 109,
+        "startChar": 12,
+        "endLine": 109,
+        "endChar": 18
+      },
+      "revId": "87f98feb38c90ada7c21a3d5701c17d60ef9460d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23cdf677_6ca75433",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-08T20:08:06Z",
+      "side": 1,
+      "message": "wrong name, should be something like: boolean added \u003d find.add(...)",
+      "range": {
+        "startLine": 111,
+        "startChar": 12,
+        "endLine": 111,
+        "endChar": 18
+      },
+      "revId": "87f98feb38c90ada7c21a3d5701c17d60ef9460d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3548f391_d693ae00",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-08T20:08:06Z",
+      "side": 1,
+      "message": "condition should be like: if (!status) {}, not if (status \u003d\u003d false)",
+      "range": {
+        "startLine": 112,
+        "startChar": 16,
+        "endLine": 112,
+        "endChar": 31
+      },
+      "revId": "87f98feb38c90ada7c21a3d5701c17d60ef9460d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
