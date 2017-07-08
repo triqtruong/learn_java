@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76940c05_e6e8292e",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-08T21:21:36Z",
+      "side": 1,
+      "message": "Remove these 2 loops with the use of HashSet",
+      "range": {
+        "startLine": 109,
+        "startChar": 8,
+        "endLine": 110,
+        "endChar": 54
+      },
+      "revId": "8d43b170237a01d6da2f690423c172b08bdd1263",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
