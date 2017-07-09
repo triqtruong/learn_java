@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "58591afa_e11f339d",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-09T01:38:15Z",
+      "side": 1,
+      "message": "it\u0027s a bit inefficient to use 2 HashSet. You use use HashMap instead. Try to see if you can use one HashMap to solve this problem instead of 2 HashSet. By the way, HashSet implementation use HashMap, so using 2 HashSet means that it would use 2 HashMap, which is a bit inefficient.",
+      "range": {
+        "startLine": 106,
+        "startChar": 8,
+        "endLine": 107,
+        "endChar": 59
+      },
+      "revId": "f913c0f9bccc9c3a660b961a02fb2605a08f0ade",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb483360_7afe12b1",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-09T01:38:15Z",
+      "side": 1,
+      "message": "You can just write: return duplicates.toArray(new String[duplicates.size());",
+      "range": {
+        "startLine": 115,
+        "startChar": 15,
+        "endLine": 115,
+        "endChar": 38
+      },
+      "revId": "f913c0f9bccc9c3a660b961a02fb2605a08f0ade",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
