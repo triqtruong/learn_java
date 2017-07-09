@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc0f8fa8_d22b0153",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-09T23:09:57Z",
+      "side": 1,
+      "message": "This approach is fine. Usually you need to find some data structure that make sense. The string value here is a waste and it does not convey much meaning. Two other ways I can think of:\n1. Use Map\u003cString, Boolean\u003e to indicate if a string is duplicate:\nMap\u003cString, Boolean\u003e duplicates \u003d new HashMap\u003c\u003e();\nfor (String string : strings) {\n  if (duplicates.containsKey(string)) {\n    duplicates.put(string, Boolean.TRUE);\n  } else {\n    duplicates.put(string, Boolean.FALSE);\n  }\n}\n\n2. Use Map\u003cString, Long\u003e to count the occurrences of each string:\nMap\u003cString, Long\u003e \u003d Stream.of(strings).collect(Collectors.groupingBy(s -\u003e s, Collectors.counting()));\n\nThen, from the map, you can produce the String array, e.g.:\nreturn duplicates.keySet()\n    .stream()\n    .filter(s -\u003e map.get(s) \u003d\u003d Boolean.TRUE)\n    .toArray();\n\nIf the stream API is hard to understand, it\u0027s fine, don\u0027t use it now, you can loop through the map and remove the one that is not duplicate:\n\n        for (Iterator\u003cMap.Entry\u003cString, Boolean\u003e\u003e i \u003d duplicates.entrySet().iterator(); i.hasNext();) {\n            if (i.next().getValue() \u003d\u003d Boolean.FALSE) {\n                i.remove();\n            }\n        }\n\nwhich can be simplified into one liner:\nmap.entrySet().removeIf(e -\u003e e.getValue() \u003d\u003d Boolean.FALSE);",
+      "range": {
+        "startLine": 106,
+        "startChar": 32,
+        "endLine": 106,
+        "endChar": 37
+      },
+      "revId": "08b2cb2a3ec6094ffabc16aff7f899b04d95cf0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
