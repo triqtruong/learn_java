@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "6953f8be_9a61372a",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-09T01:42:44Z",
+      "side": 1,
+      "message": "index i is not really needed here, so you can just use for each loop",
+      "range": {
+        "startLine": 108,
+        "startChar": 13,
+        "endLine": 108,
+        "endChar": 22
+      },
+      "revId": "f913c0f9bccc9c3a660b961a02fb2605a08f0ade",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cb483360_7afe12b1",
         "filename": "src/ArrayPractice.java",
         "patchSetId": 3
