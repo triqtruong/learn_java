@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "87d194dd_e7c23794",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-10T03:28:34Z",
+      "side": 1,
+      "message": "This is like 3 lines of code:\n        Set\u003cString\u003e strings1Set \u003d new HashSet\u003c\u003e(Arrays.asList(strings1));\n        strings1Set.retainAll(Arrays.asList(strings2));\n        return strings1Set.toArray(new String[strings1Set.size()]);",
+      "range": {
+        "startLine": 106,
+        "startChar": 27,
+        "endLine": 106,
+        "endChar": 39
+      },
+      "revId": "f9e92dac58fb930388f78d0d9268b4eaf31276c7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
