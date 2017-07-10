@@ -22,6 +22,30 @@
       "revId": "08b2cb2a3ec6094ffabc16aff7f899b04d95cf0e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "35c0447e_ba201fe6",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-07-10T02:14:25Z",
+      "side": 1,
+      "message": "When declare the type of duplicates, you used:\n    Map\u003c...\u003e duplicates ...\nI saw some of the examples using the same declaration, even though the type is used for HashMap. Is this a convention for this type? Or does it affect the program?",
+      "parentUuid": "dc0f8fa8_d22b0153",
+      "range": {
+        "startLine": 106,
+        "startChar": 32,
+        "endLine": 106,
+        "endChar": 37
+      },
+      "revId": "08b2cb2a3ec6094ffabc16aff7f899b04d95cf0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
