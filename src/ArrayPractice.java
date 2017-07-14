@@ -95,4 +95,19 @@ public final class ArrayPractice {
         }
         return reversed;
     }
+
+    public static double[][] sumPair(double element, double[] values) {
+        double[][] pair = new double[values.length][2];
+        int size = 0;
+        for (int i = 0; i < values.length; ++i) {
+            for (int j = i + 1; j < values.length; ++j) {
+                if ((values[i] + values[j]) == element) {
+                    pair[size][0] = values[i];
+                    pair[size][1] = values[j];
+                    size++;
+                }
+            }
+        }
+        return Arrays.copyOf(pair,size);
+    }
 }
