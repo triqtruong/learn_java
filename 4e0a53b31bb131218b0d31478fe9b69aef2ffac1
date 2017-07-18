@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b01066d_2d74fe39",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-18T15:02:57Z",
+      "side": 1,
+      "message": "The meaning of the value is: duplicated. Change these to:\nBoolean duplicated \u003d check.get(key);\nif (duplicated \u003d\u003d null) {\n  check.put(key, false);\n} else if (!duplicated) {\n  check.put(key, true);\n}",
+      "range": {
+        "startLine": 111,
+        "startChar": 24,
+        "endLine": 111,
+        "endChar": 29
+      },
+      "revId": "4e0a53b31bb131218b0d31478fe9b69aef2ffac1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
