@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "651d1426_209d05c4",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-18T14:55:19Z",
+      "side": 1,
+      "message": "Let\u0027s try this approach: sort the array, then find the duplicate values in this sorted array.",
+      "range": {
+        "startLine": 106,
+        "startChar": 27,
+        "endLine": 106,
+        "endChar": 42
+      },
+      "revId": "c877e0c69a45e9c7a186fb94b839c053b678812d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
