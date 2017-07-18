@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bedd32de_9e18016f",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-18T14:27:27Z",
+      "side": 1,
+      "message": "status is a very poor name, it\u0027s hard to know your intention with this variable.",
+      "range": {
+        "startLine": 107,
+        "startChar": 16,
+        "endLine": 107,
+        "endChar": 22
+      },
+      "revId": "e791daf9e183b6008ac1961b05c828daffa7ba45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e5fc7c8e_25e00bf0",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-18T14:27:27Z",
+      "side": 1,
+      "message": "you can just do ... \u003d Math.min(values1.length, values2.length)",
+      "range": {
+        "startLine": 108,
+        "startChar": 11,
+        "endLine": 112,
+        "endChar": 9
+      },
+      "revId": "e791daf9e183b6008ac1961b05c828daffa7ba45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "35ed597d_9a863a45",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-18T14:27:27Z",
+      "side": 1,
+      "message": "This is bad, it\u0027s O(mn) running time. Please let me know if you don\u0027t understand that this is O(mn) running time.\n\nThere\u0027s a couple of options here:\n- Use HashSet as the other problem, it\u0027s O(m + n) time.\n- Sort the array and find the match: O(mlogm + nlogn) time.",
+      "range": {
+        "startLine": 115,
+        "startChar": 8,
+        "endLine": 116,
+        "endChar": 52
+      },
+      "revId": "e791daf9e183b6008ac1961b05c828daffa7ba45",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
