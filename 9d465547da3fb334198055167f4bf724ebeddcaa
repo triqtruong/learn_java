@@ -22,6 +22,30 @@
       "revId": "9d465547da3fb334198055167f4bf724ebeddcaa",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84e86e38_c4d4d9d4",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1011514
+      },
+      "writtenOn": "2017-07-19T06:51:07Z",
+      "side": 1,
+      "message": "to my understanding, if the time it takes for 1 for-loop of the length n is O(n) then if there is a nested loop with the same length of n, the time it takes for both loops is O(n^2) due to for each existed element, the program will have to run the same amount of time, which is n x n.\n\nThe other way I could think of is using subtraction.\n* Sort values\n* Element - values[0] \u003d result;\n* Search for result in values.\n* Store values[0] and result;\n* Repeat Step 2 for next values UNTIL reach end of value or values[i] \u003e element.",
+      "parentUuid": "8a467883_0b3f1188",
+      "range": {
+        "startLine": 108,
+        "startChar": 14,
+        "endLine": 109,
+        "endChar": 54
+      },
+      "revId": "9d465547da3fb334198055167f4bf724ebeddcaa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
