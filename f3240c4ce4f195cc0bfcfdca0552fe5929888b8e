@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4fd2e29_56b4c7f6",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-19T23:35:21Z",
+      "side": 1,
+      "message": "This is bad. If you have 2 sorted array:\n1, 4, 5, 7, 9\n2, 5, 6, 9\n\nWhat you can do is to have 2 iterator, one for each sorted array:\ni1 point to array1[0]\ni2 point to array2[0]\nthen you keep moving the iterator with smaller value\n\nRead about merge sort to understand this technique more. Some day, you would need to implement the merge sort.",
+      "range": {
+        "startLine": 112,
+        "startChar": 26,
+        "endLine": 112,
+        "endChar": 67
+      },
+      "revId": "f3240c4ce4f195cc0bfcfdca0552fe5929888b8e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
