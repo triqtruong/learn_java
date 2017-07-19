@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "47cae0db_77930454",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-19T23:28:06Z",
+      "side": 1,
+      "message": "Just put:\nMap\u003cString, Boolean\u003e check \u003d new HashMap\u003c\u003e();\nJava can infer the type, so you don\u0027t have to write in full: HashMap\u003cString, Boolean\u003e\n\nAlso, most of the time (if not all), what you need is a map, that\u0027s why it\u0027s Map\u003cString, Boolean\u003e, you don\u0027t need to implementation details. Later on, you can change the implementation if you want to, e.g.:\nMap\u003cString, Boolean\u003e check \u003d new LinkedHashMap\u003c\u003e();",
+      "range": {
+        "startLine": 106,
+        "startChar": 8,
+        "endLine": 106,
+        "endChar": 72
+      },
+      "revId": "23128114478b8f8fb7b4b4c7239213066683a59e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "64416053_3e69d692",
+        "filename": "src/ArrayPractice.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1011462
+      },
+      "writtenOn": "2017-07-19T23:28:06Z",
+      "side": 1,
+      "message": "You don\u0027t need this check any more",
+      "range": {
+        "startLine": 110,
+        "startChar": 12,
+        "endLine": 110,
+        "endChar": 43
+      },
+      "revId": "23128114478b8f8fb7b4b4c7239213066683a59e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
